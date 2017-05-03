@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+
+   <title>Local Weather</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="api.js"></script>
+    <script src="approck.js"></script>
+    <style>
+        #boba {
+            background-image: url("https://drscdn.500px.org/photo/101296309/m=2048/b89e1ed1be42b9988f1f339ea4314f7d")no-repeat center center fixed;
+            -webkit-background-size: cover;
+               -moz-background-size: cover;
+               background-size: cover;
+               -o-background-size: cover;
+               height:100%;
+              
+        }
+        
+        #city {
+            margin:5%;
+        }
+        
+        .container {
+            margin: auto;
+            padding-top: 10%;
+            text-transform: uppercase;
+            font-weight: bold;
+            
+        }
+        
+        .col-md-6 {
+            background: aqua;
+        }
+    </style>
+</head>
+   
+    
+<body id="boba">
+   <div class="container"> 
+    <div class="background text-center">
+        
+           <h1><span class="" id="city"></li></h1>
+        
+    
+        <div class="temperature text-center">
+     <ul class="list-unstyled">
+        <li class="btn btn-default" id="weatherType"></li>
+        <li class="btn btn-default" id="fTemp"></li>
+        <li class="btn btn-default" id="windSpeed"></li>
+      </ul>
+    </div>
+        
+       
+   </div>
+  </div>   
+    <div id='name'></div>
+</body>
+    
+</html>
